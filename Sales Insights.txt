@@ -1,0 +1,61 @@
+PROBLEM STATEMENT :
+	Bhavin Patel - sales director of AtliQ Hardware
+	
+
+
+AIM'S GRID & PROJECT PLANNING :
+	
+AIM'S GRID : 4 components
+1. Purpose of this project - to unlock sales insight which are not visible before for sales
+	team for decision support & automate them to reduced manual time spent in
+	data gathering.
+
+2. Stakeholders - 
+	- Sales director
+	- Marketing team
+	- Customer service team
+	- Data & analytics team
+	- IT
+
+3. End Result - An automated dashboard providing quick & latest sales insghts in order to
+		support data driven decision making.
+
+4. Success Criteria - 
+	- dashboard(s) uncovering sales order insights with latest data available
+	- sales team able to take better decsions & prove 10% cost savings of total spend
+	- sales analyst stop data gathering manually in order to save 20% of their business
+	  time and reinvest it value added activity
+
+IT Teams (Falcons) - responsible for building and maintaining the software used by AtliQ
+data of clients are saved in MYSQL database 
+Data Anlyst (Data masters) - hook on Tableau with MySQl database for analysis and dashboard
+DATA Warehouse - Data is transformed in some other format and saved in a database using 
+		ETL tool by data engineers (data miners)
+
+Sales MAnagement system -  OLTP - Online transaction processing system
+if system goes down : data can be lost
+that's why data warehouse is used and operations are performed by data analysts or data scientists
+on the data saved in data warehouse
+known as - OLAP - online analytical processing system
+
+
+STAR SCHEMA - Data model
+retrieved data - made STAR SCHEMA and performed ETL (Data Cleaning) process
+
+TABLEAU :
+
+1. Linked MySQL data to Tableau making the STAR Schema and performing ETL 
+	i.e extracting data from MySQL, Transforming it using SQL queries
+	and loading them to Tableau to create Dashboard.
+
+2. Creat Multiple sheets defining multiple things which are required 
+	during compilation of all in making of dashboard such as :
+	Revenue by Markets, by products and designing them using filtering and
+	formatting of data to represent a attractive and interesting dashboard...
+	And finally merged all sheets to prepare a dashboard representing 
+	REVENUE ANALYSIS.
+
+3. Created another dashbaord defining profit and profit margin of company
+	among the countries and sellers using pie chart and graphs. 
+	Dashboard - PROFIT ANALYSIS
+ 
